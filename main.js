@@ -52,3 +52,8 @@ const calculateBill = (billed_items, prices, offers) => {
 
     return total;
 }
+
+module.exports = {
+    processBilledItems,
+    calculateBill
+}

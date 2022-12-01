@@ -27,7 +27,7 @@ This function takes in a array objects, like:
 var billed_items = [{name: "A99", qty: 5}, {name: "C40", qty: 5}, {name: "A99", qty: 2}]
 ```
 
-It return an object order which contains the name and qty of SKUs purchased as:
+It returns an object order which contains the name and qty of SKUs purchased as:
 ```
 {
     "A99": 7,
